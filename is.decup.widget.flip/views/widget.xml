@@ -1,0 +1,6 @@
+<Alloy>
+	<View id="card">
+		<ImageView id="frontImage"></ImageView>
+		<ImageView id="backImage"></ImageView>
+	</View>
+</Alloy>

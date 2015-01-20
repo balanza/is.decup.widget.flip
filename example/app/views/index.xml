@@ -1,0 +1,13 @@
+<Alloy>
+	<Window class="container">
+		<View id="buttons">
+			<Button onClick="$.card.flip">Flip</Button>
+			<Button onClick="$.card.cover">Cover</Button>
+			<Button onClick="$.card.reveal">Reveal</Button>
+		</View>
+		<Widget id="card" src="is.decup.widget.flip" 
+			duration="300"
+			frontImage="/front.png"
+			backImage="/back.png"></Widget>
+	</Window>
+</Alloy>
